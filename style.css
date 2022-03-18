@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -14,11 +21,23 @@ body{
     clear: both;
 }
 
-header {
-    background-color: violet;
-    height: 150px;
-    margin-bottom: 20px;
+/*INTESTAZIONE*/
+.logo{
+    height: 70px;
+    width: 175px;
+    border-right: 0.5pt solid lightgrey;
+    padding-right: 20px;
+    
 }
+
+a{
+    display: inline-block;
+    margin-top: 20px;
+    color: #8A8A8A;
+    text-decoration:none;
+    padding-right: 10px;
+}
+
 
 .blocco_centrale {
     background-color: rgb(226, 217, 84);
