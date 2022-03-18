@@ -36,14 +36,17 @@ a{
     color: #8A8A8A;
     text-decoration:none;
     padding-right: 10px;
+    margin-bottom: 30px;
 }
-
+/*FINE INTESTAZIONE*/
 
 .blocco_centrale {
-    background-color: rgb(226, 217, 84);
-    height: 400px;
-    margin-bottom: 20px;
-}
+    background-color: black;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    height: 450px;
+    border-radius: 5px;
+ }
 
 .blocco_centrale_alto {
     background-color: rgb(34, 143, 194);
